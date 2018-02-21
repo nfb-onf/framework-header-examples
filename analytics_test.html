@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<script src="/static/js/nfb_ga.js"></script>
+	</head>
+	<body>
+		<p>To test this code, inspect this page, and make the following calls in the JS console</p>
+
+		<ul>
+		<li>
+			google_analytics.gaTrack({
+				language: "en",
+				name: "testing",
+				ua_code: "madeup1",
+				pageview: "page"
+			});
+		</li>
+
+		<li>
+			google_analytics.gaTrack({
+				language: "en",
+				name: "testing",
+				ua_code: "madeup1",
+				pageview: "page2"
+			});
+		</li>
+
+		<li>
+			google_analytics.gaTrack({
+				language: "fr",
+				name: "testing",
+				ua_code: "madeup2",
+				pageview: "page"
+			});
+		</li>
+
+		<li>
+			google_analytics.gaTrack({
+				language: "fr",
+				name: "testing",
+				ua_code: "madeup2",
+				event: "auto_begin"
+			});
+		</li>
+
+	</ul>
+
+	<p>Each test will call www.google-analytics.com/j/collect, one for the main NFB account, and the project ua_code</p>
+
+	</body>
+</html>

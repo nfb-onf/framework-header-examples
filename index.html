@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/ico"  href="https://media1.onf.ca/medias/favicon.ico" />
+        <link rel="apple-touch-icon" type="image/ico" href="https://media1.onf.ca/medias/apple-touch-icon.png" />
+
+        <style>
+            body,html {margin: 0px;padding: 0px; width: 100%;height: 100%;}
+            #currentProject {background: url('https://via.placeholder.com/1920x1080&text=Interactive+Project') no-repeat;background-size: cover;width: 100%;height: 100%;}
+        </style>
+        <meta property="og:title" content="TO-DO ogTitle" />
+        <meta property="og:description" content="TO-DO ogDescription" />
+        <meta property="og:image" content="TO-DO ogImage" />
+        <meta property="twitter:description" content="TO-DO twitterDesc">
+    </head>
+    <body>
+        <div id="currentProject">
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/lib/jquery-2.2.4.min.js"><\/script>')</script>
+        <script src="https://interactive-pip.nfb.ca/static/js/load_framework.js"></script>
+        <script>
+            var statics_root_url = "https://interactive-pip.nfb.ca/static/";
+            var indexOptions = {
+                currentProjectId: 117,
+                base_url: {
+                    fr: "http://laplaine.onf.ca/",
+                    en: "http://grasslands.nfb.ca/"
+                }
+            }
+            load_framework.init(indexOptions, statics_root_url);
+        </script>
+    </body>
+</html>
