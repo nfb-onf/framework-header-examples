@@ -2,7 +2,7 @@
 ==========
 
 
-- IMPORTANT NOTE : The header uses the [hashchange event system](https://developer.mozilla.org/fr/docs/Web/API/WindowEventHandlers/onhashchange) to navigate to the project infos page and grid and make sure the user has those pages in his history. <br/>Please make sure the routing system of your project is not conflicting with the hashchange event system.
+##<span style="color:red;">IMPORTANT NOTE : The header uses the [hashchange event system](https://developer.mozilla.org/fr/docs/Web/API/WindowEventHandlers/onhashchange) to navigate to the project infos page and grid and make sure the user has those pages in his history. <br/>Please make sure the routing system of your project is not conflicting with the hashchange event system.</span>
 
 
 ## Initialization
