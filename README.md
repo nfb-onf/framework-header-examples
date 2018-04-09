@@ -54,6 +54,30 @@ The header css is loaded via javascript (for environnement testing on our side) 
 | forceLanguage              | string       | "en" or "fr". By default, the language is set by determining if nfb or onf is present in the url. If you want to overwrite it, you can pass that variable. |
 
 
+
+## Events
+
+Here is the events you can listen :
+| Parameter                        |  Description          									|
+| -------------                    |  ------------- |
+| ifw_openOverlay				   |  Event will be fired when the user opens the overlay.  |
+| ifw_closeOverlay                 |  Event will be fired when the user closes the overlay. |
+| ifw_muteSound                    |  Event will be fired when the user mutes the sound. |
+| ifw_unmuteSound                  |  Event will be fired when the user unmutes the sound. |
+| ifw_enterFullscreen              |  Event will be fired when the user enters fullscreen mode.  |
+| ifw_exitFullscreen               |  Event will be fired when the user exits fullscreen mode.  |
+| ifw_headerLoaded                 |  Event will be fired when the header is loaded             |
+
+
+You can find a file in the repo with examples of how to assign events.
+Here is an example :
+
+```javascript
+$(document).on( "ifw_closeOverlay", function() {
+    console.log('overlay close');
+});
+```
+
 ## Social media share
 
 To make the Twitter and Facebook share button works, you need to ensure that this metadata is provided in your html:
