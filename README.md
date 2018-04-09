@@ -51,6 +51,7 @@ The header css is loaded via javascript (for environnement testing on our side) 
 | base_url                         | object        | This is the url in french and in english of your project. This will ensure that the language toggle works. If your project is only available in one language, just set one property. |
 | inverted                         | boolean       | By default the navbar is white (false). If you want to change the navbar to black, add this parameter with the value true. |
 | displaySoundToggle               | boolean       | By default, the sound toggle is displayed (true). If there is no sound in your project, you can add this property and set it to false.  |
+| forceLanguage              | string       | "en" or "fr". By default, the language is set by determining if nfb or onf is present in the url. If you want to overwrite it, you can pass that variable. |
 
 
 ## Social media share
