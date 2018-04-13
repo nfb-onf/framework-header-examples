@@ -88,6 +88,8 @@ To make the Twitter and Facebook share button works, you need to ensure that thi
 | og:title  				   | The title of the page.                                                                                                                     |
 | og:description               | A brief description of the content, usually between 2 and 4 sentences. This will displayed below the title of the post on Facebook.        |
 | og:image                     | The URL of the image that appears when someone shares the content to Facebook. See [facebook docs](https://developers.facebook.com/docs/sharing/best-practices#images) for images size.      |
+| og:image:width               | The width of the og:image. Better to include it to avoid that the first person to share has no image.  [doc](https://developers.facebook.com/docs/sharing/best-practices#precaching)    |
+| og:image:height              | The height of the og:image. Better to include it to avoid that the first person to share has no image.   [doc](https://developers.facebook.com/docs/sharing/best-practices#precaching)   |
 | twitter:description          | A description that concisely summarizes the content as appropriate for presentation within a Tweet. You should not re-use the title as the description or use this field to describe the general services provided by the website. <br /><br />Platform specific behaviors:<br /> * iOS, Android: Not displayed<br /> * Web: Truncated to three lines in timeline and expanded Tweet |
 
 ## Fav icon
